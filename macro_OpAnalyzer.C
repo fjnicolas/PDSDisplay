@@ -2,7 +2,7 @@
 #include "include/PDSmapping.hpp"
 #include "include/OpDisplay_library.hpp"
 
-//Select event
+//Select event feature1
 #define frun 11
 #define fsubrun 80
 #define fevent 15
