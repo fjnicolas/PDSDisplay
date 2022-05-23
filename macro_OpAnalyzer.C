@@ -100,8 +100,8 @@ void macro_OpAnalyzer(){
 
 
     double TimeRes=0.01;
-    cout<<"MinTime [us]  Flash:"<<minTime2(flash_ophit_peakT)<<" Tot:"<<minTime(*fophit_peakT)<<endl;
-    cout<<"MaxTime [us]  Flash:"<<maxTime2(flash_ophit_peakT)<<" Tot:"<<maxTime(*fophit_peakT)<<endl;
+    cout<<"--- MinTime [us]  Flash:"<<minTime2(flash_ophit_peakT)<<" Tot:"<<minTime(*fophit_peakT)<<endl;
+    cout<<"--- MaxTime [us]  Flash:"<<maxTime2(flash_ophit_peakT)<<" Tot:"<<maxTime(*fophit_peakT)<<endl;
     double mint=minTime(*fophit_peakT);
     double maxt=maxTime(*fophit_peakT);
     mint-=10*TimeRes;
