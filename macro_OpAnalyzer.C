@@ -82,6 +82,8 @@ void macro_OpAnalyzer(){
   tree->SetBranchAddress("flash_ophit_area",&flash_ophit_area);
 
   string sbndgeofile="include/SBNDgeometry_PDSdisplay.root";
+
+  std::cout<<" Reading TTree...done!"<<std::endl;
   //_____>
 
   for(int i=0; i<tree->GetEntries(); i++){
