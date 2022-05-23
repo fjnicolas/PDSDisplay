@@ -83,7 +83,7 @@ void macro_OpAnalyzer(){
 
   string sbndgeofile="include/SBNDgeometry_PDSdisplay.root";
 
-  std::cout<<" Reading TTree...done!"<<std::endl;
+  std::cout<<" ---- Reading...done!"<<std::endl;
   //_____>
 
   for(int i=0; i<tree->GetEntries(); i++){
